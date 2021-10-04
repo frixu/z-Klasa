@@ -6,9 +6,44 @@
 
 .navbar {
     font-size: 24px;
-    height: 80px;
+    height: 60px;
 }
 
 .navbar-brand {
     font-size: 24px;
+    background: none;
+    border: none
+}
+
+.sidebar {
+    background: rgb(48, 48, 48);
+    width: 200px;
+    height: 100vh;
+    color: whitesmoke;
+    list-style-type: none;
+    list-style: none;
+    padding-left: 0;
+    transition: 0.1s;
+}
+
+.sidebar-field {
+    padding: 15px 0 15px 0;
+    padding-left: 25px;
+    transition: 0.1s;
+    display: flex;
+}
+
+.sidebar-field:hover {
+    background: rgb(77, 75, 75);
+    cursor: pointer;
+}
+
+.sidebar i {
+    font-size: 24px;
+}
+
+.sidebar-field span {
+    display: block;
+    margin: auto;
+    font-size: 16px;
 }
