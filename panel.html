@@ -21,7 +21,7 @@
                 <ul class="sidebar" id="sidebar">
                     
                     <a href="index.html">
-                    <li class="sidebar-field field-active">
+                    <li class="sidebar-field">
                         <div class="field-icon"><i class="fas fa-home"></i></div>
                         <span class="sidebar-text">Główna</span>
                     </li>
@@ -42,14 +42,40 @@
                     </a>
 
                     <a href="panel.html">
-                    <li class="sidebar-field">
+                    <li class="sidebar-field field-active">
                         <div class="field-icon"><i class="fas fa-desktop"></i></div>
                         <span class="sidebar-text">panel</span>
                     </li>
                     </a>
                     
                 </ul>
+                <div class="site">
+                    <div class="login">
+                        <div class="login-heading">
+                            <span>Logowanie</span>
+                        </div>
+                        <form action="" method="post">
+                            <table>
+
+                                <tr>
+                                    <th><label for="login"><i class="fas fa-user"></i></label></th>
+                                    <td><input type="text" name="login" id="login" placeholder="Login"></td>
+                                </tr>
+
+                                <tr>
+                                    <th><label for="pass"><i class="fas fa-lock"></i></label></th>
+                                    <td><input type="password" name="pass" id="pass" placeholder="Hasło"></td>
+                                </tr>
+
+                            </table>
+
+                            <input type="submit" value="Zaloguj">
+                        </form>
+                    </div>
+                </div>
             </div>
+
+            
         </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
