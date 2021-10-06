@@ -6,6 +6,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    background-color: whitesmoke;
+}
+
 .content {
     display: flex;
 }
@@ -55,7 +59,7 @@
     font-size: 24px;
 }
 
-.sidebar-field span {
+.sidebar-text {
     font-family: 'Roboto', sans-serif;
     display: none;
     padding-left: 8px;
@@ -119,10 +123,10 @@ th, td {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: whitesmoke;
     height: 100%;
     width: calc(100% - 80px);
     margin-left: 80px;
+    padding: 50px 0 50px 0;
 }
 
 .note-field {
