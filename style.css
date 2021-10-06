@@ -21,6 +21,7 @@
 }
 
 .sidebar {
+    margin-top: 60px;
     background: rgb(48, 48, 48);
     width: 80px;
     height: 100vh;
@@ -113,11 +114,18 @@ th, td {
 }
 
 .site {
+    margin-top: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: whitesmoke;
-    height: calc(100vh - 60px);
+    height: 100%;
     width: calc(100% - 80px);
     margin-left: 80px;
+}
+
+.note-field {
+    height: 200px;
+    width: 250px;
+    background: #000;
 }
