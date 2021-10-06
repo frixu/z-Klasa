@@ -129,13 +129,23 @@ th, td {
     padding: 50px 0 50px 0;
 }
 
-.note-field {
+.note-field,.homework-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
-    line-height: 200px;
-    text-align: center;
     color: whitesmoke;
     height: 200px;
     width: 250px;
     background: #000;
+    transition: transform 0.1s;
+}
+
+.note-field:hover {
+    transform: translateY(-5px);
+}
+
+.homework-field span {
+    font
 }
